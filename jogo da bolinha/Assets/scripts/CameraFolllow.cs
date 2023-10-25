@@ -11,7 +11,7 @@ public class CameraFolllow : MonoBehaviour
     void Start()
 
     {
-        alvo = GameObject.FindWithTag("player").transform;
+        alvo = GameObject.FindWithTag("Player").transform;
         offset = alvo.position - transform.position;
 
     }
